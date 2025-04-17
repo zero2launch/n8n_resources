@@ -1,0 +1,7 @@
+neutral
+robot
+dramatic
+chill_surfer
+friendly
+emo_teenager
+chill_surfer
