@@ -3,7 +3,7 @@
     { "name": "openai", "description": "OpenAI GPT-4.1-mini" },
     { "name": "openai-fast", "description": "OpenAI GPT-4.1-nano" },
     { "name": "openai-large", "description": "OpenAI GPT-4.1" },
-    { "name": "grok", "description": "Grok Model" },
+    { "name": "grok", "description": "xAI Grok-3 Mini" },
     { "name": "qwen-coder", "description": "Qwen 2.5 Coder 32B" },
     { "name": "llama", "description": "Llama 3.3 70B" },
     { "name": "llamascout", "description": "Llama 4 Scout 17B" },
