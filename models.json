@@ -4,13 +4,12 @@
     { "name": "openai-fast", "description": "OpenAI GPT-4.1-nano" },
     { "name": "openai-large", "description": "OpenAI GPT-4.1" },
     { "name": "grok", "description": "xAI Grok-3 Mini" },
-    { "name": "qwen-coder", "description": "Qwen 2.5 Coder 32B" },
+    { "name": "qwen", "description": "Qwen 2.5 Coder 32B" },
     { "name": "llama", "description": "Llama 3.3 70B" },
     { "name": "llamascout", "description": "Llama 4 Scout 17B" },
     { "name": "mistral", "description": "Mistral Small 3.1 24B" },
     { "name": "evil", "description": "Evil AI Experimental" },
     { "name": "deepseek-reasoning", "description": "DeepSeek R1 - MAI-DS-R1" },
-    { "name": "phi", "description": "Phi-4 Instruct" },
     { "name": "deepseek", "description": "DeepSeek-V3" },
     { "name": "sur", "description": "Sur AI Assistant (Mistral)" }
   ]
