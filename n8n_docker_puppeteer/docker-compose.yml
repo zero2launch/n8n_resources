@@ -1,0 +1,16 @@
+services:
+  svr_n8n:
+    build: .
+    image: n8n-custom-ffmpeg
+    container_name: n8n_container
+    environment:
+      - NODE_OPTIONS=--max_old_space_size=4096
+      - N8N_SECURE_COOKIE=false
+      - N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
+      - N8N_PORT=5678
+      - N8N_DEFAULT_BINARY_DATA_MODE=filesystem
+    ports:
+      - "5678:5678"
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+      - /tmp:/tmp
