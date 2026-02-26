@@ -50,7 +50,7 @@ NEW_CONFIG=$(cat <<EOF
     "mode": "merge",
     "providers": {
       "zero2launch": {
-        "baseUrl": "https://api.zero2launch.com/v1",
+        "baseUrl": "https://api.vidspark.io/v1",
         "apiKey": "\${ZERO2LAUNCH_API_KEY}",
         "api": "openai-completions",
         "models": [
@@ -119,7 +119,7 @@ NEW_CONFIG=$(cat <<EOF
       "search": {
         "provider": "perplexity",
         "perplexity": {
-          "baseUrl": "https://api.zero2launch.com/v1",
+          "baseUrl": "https://api.vidspark.io/v1",
           "apiKey": "\${ZERO2LAUNCH_API_KEY}",
           "model": "perplexity-fast"
         }
