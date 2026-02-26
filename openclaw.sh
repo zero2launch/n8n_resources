@@ -24,7 +24,7 @@ CONFIG_FILE="${CONFIG_DIR}/openclaw.json"
 mkdir -p "$CONFIG_DIR"
 
 # Define the configuration
-# qwen-safety as primary (content moderation & safety)
+# nova-fast as primary (content moderation & safety)
 # Multiple models available as fallbacks and alternatives
 NEW_CONFIG=$(cat <<EOF
 {
@@ -32,11 +32,11 @@ NEW_CONFIG=$(cat <<EOF
   "agents": {
     "defaults": {
       "model": {
-        "primary": "zero2launch/qwen-safety",
+        "primary": "zero2launch/nova-fast",
         "fallbacks": ["zero2launch/openai", "zero2launch/deepseek"]
       },
       "models": {
-        "zero2launch/qwen-safety": { "alias": "Qwen Safety (Zero2Launch)" },
+        "zero2launch/nova-fast": { "alias": "nova-fast (Zero2Launch)" },
         "zero2launch/openai": { "alias": "GPT-5.2 (Zero2Launch)" },
         "zero2launch/openai-fast": { "alias": "o3-mini (Zero2Launch)" },
         "zero2launch/deepseek": { "alias": "DeepSeek V3.1 (Zero2Launch)" },
@@ -55,8 +55,8 @@ NEW_CONFIG=$(cat <<EOF
         "api": "openai-completions",
         "models": [
           {
-            "id": "qwen-safety",
-            "name": "Qwen Safety — Content moderation & safety checks",
+            "id": "nova-fast",
+            "name": "Nova Fast — Content moderation & safety checks",
             "reasoning": false,
             "input": ["text"],
             "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
@@ -186,7 +186,7 @@ echo ""
 echo "  Config:  $CONFIG_FILE"
 echo "  API Key: $MASKED_KEY"
 echo ""
-echo "  Primary model: Qwen Safety (content moderation & safety)"
+echo "  Primary model: Nova Fast (content moderation & safety)"
 echo "  Fallbacks:     GPT-5.2, DeepSeek V3.1"
 echo "  Web search:    Perplexity via Zero2Launch"
 echo "  Also available: o3-mini, Gemini 2.5 Flash/Pro, Claude Sonnet 4"
