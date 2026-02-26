@@ -192,7 +192,7 @@ echo "  Web search:    Perplexity via Zero2Launch"
 echo "  Also available: o3-mini, Gemini 2.5 Flash/Pro, Claude Sonnet 4"
 echo ""
 echo "  Switch models in chat: /model zero2launch/openai"
-echo "  Manage your account:   https://zero2hero.vn"
+echo "  Manage your account:   https://www.skool.com/z2l-premium-builders-circle-7291"
 echo ""
 if ! command -v openclaw >/dev/null 2>&1; then
     echo "Next: Install OpenClaw with:"
