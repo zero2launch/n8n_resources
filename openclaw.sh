@@ -12,7 +12,7 @@ if [ -z "$1" ]; then
     echo ""
     echo "Usage: $0 <ZERO2LAUNCH_API_KEY>"
     echo ""
-    echo "Get your API key at: https://zero2hero.vn"
+    echo "Get your API key at: https://www.skool.com/z2l-premium-builders-circle-7291"
     exit 1
 fi
 
